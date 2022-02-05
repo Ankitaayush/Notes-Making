@@ -33,6 +33,8 @@ background-color:#67d7cc;
 textarea:focus{
    outline: none;
 }
+/* "predeploy":"npm run build",
+"deploy":"gh-pages -d build", */
 .save{
   background-color: #e1e1e1;
   border: none;
