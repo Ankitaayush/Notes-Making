@@ -4,26 +4,7 @@ import NotesList from './componenets/NotesList'
 import Search from './componenets/Search'
 import Header from './componenets/Header'
 const App =() => {
-  const[notes,setNotes]=useState([{
-    id:nanoid(),
-  text:"This is ",
-  date:"3/02/2022"
-},
-{
-  id:nanoid(),
-text:"This is ",
-date:"3/02/2022"
-},{
-  id:nanoid(),
-text:"This is ",
-date:"3/02/2022"
-},{
-  id:nanoid(),
-text:"This is ",
-date:"3/02/2022"
-}])
-
-
+  const[notes,setNotes]=useState([])
 
 const [searchText, setSearchText]= useState('');
 const [darkMode,setDarkMode]=useState(false)
