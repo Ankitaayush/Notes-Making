@@ -10,7 +10,7 @@ const Header = ({handleToggleDarkMode}) => {
             onClick={()=>
             handleToggleDarkMode(
                 (previousDarkMode)=> !previousDarkMode)}
-                className="save">Toggle Mode</button>
+                className="save1">Toggle Mode</button>
         </div>
     )
 }
